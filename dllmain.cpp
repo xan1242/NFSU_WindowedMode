@@ -97,6 +97,9 @@ void InitWSFixConfig()
     CIniReader inireader("NFSUnderground.WidescreenFix.ini");
     WSFixResX = inireader.ReadInteger("MAIN", "ResX", 0);
     WSFixResY = inireader.ReadInteger("MAIN", "ResY", 0);
+
+    if ((!WSFixResX) || (!WSFixResY))
+        GetDesktopRes(&WSFixResX, &WSFixResY);
 }
 
 int Init()

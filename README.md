@@ -1,3 +1,7 @@
+# NOTE
+
+As of [this commit](https://github.com/ThirteenAG/WidescreenFixesPack/commit/51cd110c623fc40f61c201237a14db7a38d5fc78) in the [WidescreenFixesPack](https://github.com/ThirteenAG/WidescreenFixesPack) repository, this code has been fully integrated and implemented for Underground, Underground 2 and Most Wanted (with MW supporting dynamic window resizing).
+
 # NFS Underground - Proper Windowed Mode
 
 This is a quickly thrown together hook to allow for a proper window mode configuration for NFS Underground.
